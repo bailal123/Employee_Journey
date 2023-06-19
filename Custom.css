@@ -1,0 +1,309 @@
+
+/* For Cutomer Journey "By Sean"*/
+
+
+.ex-step-img {
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 90px;
+    z-index: 1;
+}
+
+.ex-step-container {
+    position: relative;
+    padding-bottom: 70px;
+    /*outline:1px dashed red;*/
+}
+
+.ex-step-indicator,
+.ex-step-line {
+    display: none;
+}
+
+.ex-step-inside {
+    position: relative;
+    display: none;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 90px;
+}
+
+.ex-step-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(46,80,106);
+    margin-bottom: 8px;
+	
+	
+}
+
+.ex-step-title-green {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(73,219,132);
+    margin-bottom: 8px;
+}
+
+.ex-step-description {
+    font-size: 14px;
+    color: black;
+    margin-bottom: 25px;
+}
+
+.ex-step-btn {
+    background: rgb(46,80,106);
+    border: 0;
+    padding: 5px 15px;
+    margin-bottom: 5px;
+    color: white;
+    cursor: pointer;
+    FONT-SIZE: 14;
+}
+
+
+    .ex-step-btn:hover {
+        background: rgb(27,57,80);
+        border: 0;
+        padding: 5px 15px;
+        color: white;
+    }
+
+.ex-text-link {
+    color: rgb(68,154,190);
+}
+
+
+    .ex-text-link:hover {
+        color: rgb(27,57,80);
+    }
+
+.ex-circle {
+    position: absolute;
+    bottom: 0px;
+    left: 30px;
+    width: 50px;
+    height: 50px;
+    top: 140px;
+    background: rgb(28,117,172);
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    z-index: 2;
+    transition: 0.5s;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.circle-inactive {
+    position: absolute;
+    bottom: 13px;
+    left: 30px;
+    width: 27px;
+    height: 27px;
+    background: rgb(28,117,172);
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    z-index: 2;
+}
+
+
+.ex-circle-green {
+    position: absolute;
+    bottom: 0px;
+    left: 30px;
+    width: 50px;
+    height: 50px;
+    background: rgb(73,219,132);
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    z-index: 2;
+}
+
+.ex-step-no {
+    position: absolute;
+    left: 17px;
+    top: 5px;
+    color: white;
+    font-size: 28px;
+}
+
+.ex-step-line {
+    position: absolute;
+    right: 340px;
+    bottom: 18px;
+    width: 100%;
+    height: 15px;
+    background: rgb(157,195,230);
+    z-index: 1;
+}
+
+.ex-step-lineB {
+    position: absolute;
+    height: 100%;
+    width: 15px;
+    background: rgb(157,195,230);
+    left: 48px;
+    top: -10px;
+    z-index: 1;
+    display: none;
+}
+
+.ex-step-dashedB {
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    border-right: 3px dashed white;
+    left: 6px;
+    z-index: 1;
+}
+
+.ex-step-dashed {
+    position: relative;
+    height: 1px;
+    border-bottom: 3px dashed white;
+    top: 6px;
+}
+
+.ex-flex-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    height: auto;
+}
+
+    .ex-flex-container > div {
+        position: relative;
+        /*outline:1px solid red;*/
+        flex: 1;
+        padding-top: 50px;
+        direction: ltr;
+    }
+
+.ex-flex-container-02 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    height: auto;
+    flex-direction: row-reverse;
+}
+
+    .ex-flex-container-02 > div {
+        position: relative;
+        /*outline:1px solid red;*/
+        flex: 1;
+        padding-top: 35px;
+        direction: ltr;
+    }
+	.ex-flex-container-03 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    height: auto;
+    flex-direction: row-reverse;
+}
+
+    .ex-flex-container-03 > div {
+        position: relative;
+        /*outline:1px solid red;*/
+        flex: 1;
+        padding-top: 50px;
+    }
+	
+	
+
+@media (max-width:991px) {
+
+    .ex-flex-container {
+        display: block;
+    }
+
+        .ex-flex-container > div {
+            /*outline:1px solid red;*/
+            display: block;
+        }
+
+    .ex-flex-container-02 {
+        display: block;
+    }
+
+        .ex-flex-container-02 > div {
+            /*outline:1px solid red;*/
+            display: block;
+        }
+		
+		 .ex-flex-container-03 {
+        display: block;
+    }
+
+        .ex-flex-container-03 > div {
+            /*outline:1px solid red;*/
+            display: block;
+        }
+
+
+    .ex-step-line {
+        position: absolute;
+        left: 50px;
+        height: 100%;
+        bottom: -100%;
+        width: 15px;
+        background: rgb(157,195,230);
+        z-index: -3;
+    }
+
+    .ex-step-dashed {
+        position: relative;
+        left: 6px;
+        height: 100%;
+        width: 3px;
+        border-right: 3px dashed white;
+        z-index: -2;
+    }
+
+    .ex-step-line.ex-ind-06,
+    .ex-step-line.ex-ind-05 {
+        bottom: 0px !important;
+    }
+
+    .customer-journey-wrapper {
+        position: relative;
+        width: 100%;
+        /*border:1px solid green;*/
+        padding: 10px !important;
+    }
+}
+
+.customer-journey-wrapper {
+    /* position: relative; */
+    /* width: 100%; */
+    /*border:1px solid green;*/
+    /* padding:0 50px 50px 50px; */
+    direction: rtl;
+}
+
+.ex-module-title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 24px;
+    font-family: Open Sans, Segoe UI, Arial, sans-serif;
+    text-align: center;
+}
+
+
+#myImg4 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+	left: -45px !important;
+}
+
+
+
+/* End Customer Journey*/

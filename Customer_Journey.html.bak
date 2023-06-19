@@ -1,0 +1,211 @@
+
+<html style="margin-left: 150px;">
+<head>
+<link rel="stylesheet" href="Custom.css">
+<link rel="style" href="./style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="./Journey.js"></script>
+
+</head>
+
+<body style="align-items:right;">
+<div id="test" class="customer-journey-wrapper">
+<div class="ex-flex-container">
+<div class="ex-step-container">
+
+<div class="ex-step-inside ex-step-01" style="display: block;">
+
+<img id="myImg" class="ex-step-img" src="الانطباع الأول.jpg" alt="الانطباعات الأول" >
+				
+			 <!-- <img class="ex-step-img" src="الانطباع الأول.jpg" alt="Step 01 - الانطباع الأول">-->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+
+<div class="ex-step-title" style="
+    margin-left: 14px;">الإنطباعات الأولى</div>
+<!--<div class="ex-step-description" style="margin-left: 14px;">
+ Linked in تقوية حضور الدائرة في مواقع التواصل مثل
+</div>-->
+<div class="ex-step-choices" style="margin-left: 14px;">
+<button class="ex-step-btn ex-next-loan">التالي</button>
+</div>
+</div>
+
+<div class="ex-circle ex-step-indicator ex-ind-01" style="display: block;">
+<span class="ex-step-no">1</span>
+</div>
+<div class="ex-step-line ex-ind-02" style="display: none;">
+<div class="ex-step-dashed">&nbsp;</div>
+</div>
+</div>
+<div class="ex-step-container">
+<div class="ex-step-inside ex-step-02" style="display: none;">
+<div class="fullscreen-container">
+  <div id="popdiv">
+<img  id="myImg2" class="ex-step-img" src="2 التوظيف.jpg" alt="التوظيف">
+
+
+<div id="myModal2" class="modal2">
+  <span class="close2">&times;</span>
+  <img class="modal-content2" id="img02">
+  <div id="caption2"></div>
+</div>
+</div>
+</div>
+
+
+<div class="ex-step-title" style="
+    margin-left: 14px;">التوظيف</div>
+<div class="ex-step-choices" style="margin-left: 14px;">
+<button class="ex-step-btn ex-next-02">التالي</button>
+</div>
+</div>
+<div class="ex-circle ex-step-indicator ex-ind-02" style="display: none;">
+<span class="ex-step-no">2</span>
+</div>
+<div class="ex-step-line ex-ind-03" style="display: none;">
+<div class="ex-step-dashed">&nbsp;</div>
+</div>
+</div>
+<div class="ex-step-container">
+<div class="ex-step-inside ex-step-03" style="display: none;">
+<img  id="myImg3" class="ex-step-img" src="3 إعداد الموظفين.jpg" alt="إعداد الموظفين">
+
+<div id="myModal3" class="modal3">
+  <span class="close3">&times;</span>
+  <img class="modal-content3" id="img03">
+  <div id="caption3"></div>
+</div>
+
+<div class="ex-step-title" style="margin-left: 14px;">إعداد الموظفين
+</div>
+<div class="ex-step-choices" style="margin-left: 14px;">
+<button class="ex-step-btn ex-next-03-init-ok">التالي</button>
+<!--<button class="ex-step-btn ex-next-03-init-reject">Rejected</button>-->
+</div>
+</div>
+<div class="ex-circle ex-step-indicator ex-ind-03" style="display: none;">
+<span class="ex-step-no">3</span>
+</div>
+</div>
+</div>
+<!-- flex container -->
+<div class="ex-flex-container-02">
+<div class="ex-step-container">
+<div class="ex-step-inside ex-step-04-loan" style="display: none;">
+<img id="myImg4" class="ex-step-img" src="4 إدارة الأداء والمكافآت.jpg" alt="إدارة الأداء والمكافآت">
+
+<div id="myModal4" class="modal4">
+  <span class="close4">&times;</span>
+  <img class="modal-content4" id="img04">
+  <div id="caption4"></div>
+</div>
+
+
+<div class="ex-step-title" style="margin-left: 14px;">إدارة الأداء والمكافآت</div>
+
+<div class="ex-step-choices" style="margin-left: 14px;">
+<button class="ex-step-btn ex-next-readyHouseL">التالي</button>
+</div>
+</div>
+<div class="ex-circle ex-step-indicator ex-ind-04" style="display: none;">
+<span class="ex-step-no">4</span>
+</div>
+<div class="ex-step-lineB ex-step-line-04" style="display: none;">
+<div class="ex-step-dashedB">&nbsp;</div>
+</div>
+</div>
+
+<div class="ex-step-container">
+<!-- HOUSE CONSTRUCTION LOAN -->
+<div class="ex-step-inside ex-step-05-readyhouseL" style="display: none;">
+<img id="myImg5" class="ex-step-img" src="5 التعلم والتطوير.jpg" alt="التعلم والتطوير">
+
+<div id="myModal5" class="modal5">
+  <span class="close5">&times;</span>
+  <img class="modal-content5" id="img05">
+  <div id="caption5"></div>
+</div>
+
+
+<div class="ex-step-title" style="
+    margin-left: 14px;">التعلم والتطوير</div>
+<!--<div class="ex-step-description">
+Your request will be also be communicated and confirmed with BANK. Please wait for further notification.
+</div>-->
+<div class="ex-step-choices" style="margin-left: 14px;">
+<button class="ex-step-btn ex-next-05-approved">التالي</button>
+</div>
+</div>
+<div class="ex-circle ex-step-indicator ex-ind-05" style="display: none;">
+<span class="ex-step-no">5</span>
+</div>
+<div class="ex-step-line ex-ind-05 ex-ind-05" style="display: none;">
+<div class="ex-step-dashed">&nbsp;</div>
+</div>
+</div>
+<div id="div6" class="ex-step-container">
+<!-- LOAN EXTERNAL PROCESS -->
+<div class="ex-step-inside ex-step-06-loan" style="display: none;">
+<img id="myImg6"  class="ex-step-img" src="6 خدمات الموظفين.jpg" alt="Step 06 - Loan External Process">
+<div id="myModal6" class="modal6">
+  <span class="close6">&times;</span>
+  <img class="modal-content6" id="img06">
+  <div id="caption6"></div>
+</div>
+
+
+
+<div class="ex-step-title" style="margin-left: 14px;">خدمات الموظفين</div>
+
+<!--
+<div class="ex-step-choices">
+<button class="ex-step-btn">Self Financing Reward</button>
+<button class="ex-step-btn">Facilitiation Program</button>
+</div>
+-->
+<div class="ex-step-choices" style="margin-left: 14px;">
+<button class="ex-step-btn ex-next-06-approved">التالي</button>
+</div>
+</div>
+<div class="ex-circle-green ex-step-indicator ex-ind-06" style="display: none;">
+<span class="ex-step-no">6</span>
+</div>
+<div class="ex-step-line ex-ind-06" style="display: none;">
+<div class="ex-step-dashed">&nbsp;</div>
+</div>
+</div>
+
+
+
+
+
+
+</div>
+<!--<div class="ex-flex-container-03">
+<div class="ex-step-container">
+<!-- HOUSE CONSTRUCTION LOAN 
+<div class="ex-step-inside ex-step-07-readyhouseL" style="display: none;">
+<img class="ex-step-img" src="7 نهاية رحلة الموظف.jpg" alt="Step 07 - House Construction Loan">
+<div class="ex-step-title" style="margin-left: 14px;">نهاية رحلة الموظف</div>
+<div class="ex-step-choices" style="margin-left: 14px;">
+<button class="ex-step-btn ex-next-07-approved">التالي</button>
+</div>
+</div>
+<div class="ex-circle ex-step-indicator ex-ind-07" style="display: none;">
+<span class="ex-step-no">7</span>
+</div>
+<div class="ex-step-line ex-ind-07 ex-ind-07" style="display: none;">
+<div class="ex-step-dashed">&nbsp;</div>
+</div>
+</div>
+</div>-->
+<!-- flex container -->
+</div>
+<script src="./script2.js"></script>
+</body>
+</html>
